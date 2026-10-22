@@ -1,0 +1,268 @@
+[
+  {
+    "alias": "IGFBP8",
+    "original_gene": "CCN2",
+    "expected_hgnc": "HGNC:2500",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:2500",
+        "symbol": "CCN2",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "augurin",
+    "original_gene": "ECRG4",
+    "expected_hgnc": "HGNC:24642",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:24642",
+        "symbol": "ECRG4",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "UNQ830",
+    "original_gene": "SNORC",
+    "expected_hgnc": "HGNC:33763",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:33763",
+        "symbol": "SNORC",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "ASCL830",
+    "original_gene": "SNORC",
+    "expected_hgnc": "HGNC:33763",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:33763",
+        "symbol": "SNORC",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "PC-3",
+    "original_gene": "MSMP",
+    "expected_hgnc": "HGNC:29663",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:29663",
+        "symbol": "MSMP",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "PSMP",
+    "original_gene": "MSMP",
+    "expected_hgnc": "HGNC:29663",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:29663",
+        "symbol": "MSMP",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "KvDMR1",
+    "original_gene": "KCNQ1OT1",
+    "expected_hgnc": "HGNC:6295",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:6295",
+        "symbol": "KCNQ1OT1",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "KCNQ1-AS2",
+    "original_gene": "KCNQ1OT1",
+    "expected_hgnc": "HGNC:6295",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:6295",
+        "symbol": "KCNQ1OT1",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "KvLQT1-AS",
+    "original_gene": "KCNQ1OT1",
+    "expected_hgnc": "HGNC:6295",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:6295",
+        "symbol": "KCNQ1OT1",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "LIT1",
+    "original_gene": "KCNQ1OT1",
+    "expected_hgnc": "HGNC:6295",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:6295",
+        "symbol": "KCNQ1OT1",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "NCRNA00012",
+    "original_gene": "KCNQ1OT1",
+    "expected_hgnc": "HGNC:6295",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:6295",
+        "symbol": "KCNQ1OT1",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "AGD1",
+    "original_gene": "MIR100HG",
+    "expected_hgnc": "HGNC:39522",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:39522",
+        "symbol": "MIR100HG",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "lncRNA-N2",
+    "original_gene": "MIR100HG",
+    "expected_hgnc": "HGNC:39522",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:39522",
+        "symbol": "MIR100HG",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "linc-NeD125",
+    "original_gene": "MIR100HG",
+    "expected_hgnc": "HGNC:39522",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:39522",
+        "symbol": "MIR100HG",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "NCRNA00214",
+    "original_gene": "SNHG14",
+    "expected_hgnc": "HGNC:37462",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:37462",
+        "symbol": "SNHG14",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "UBE3A-AS",
+    "original_gene": "SNHG14",
+    "expected_hgnc": "HGNC:37462",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:37462",
+        "symbol": "SNHG14",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "UBE3A-ATS",
+    "original_gene": "SNHG14",
+    "expected_hgnc": "HGNC:37462",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:37462",
+        "symbol": "SNHG14",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "AC005154.6",
+    "original_gene": "GARS-DT",
+    "expected_hgnc": "HGNC:48951",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:48951",
+        "symbol": "GARS1-DT",
+        "status": "Approved"
+      }
+    ]
+  },
+  {
+    "alias": "AC005154.1",
+    "original_gene": "GARS-DT",
+    "expected_hgnc": "HGNC:48951",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:48951",
+        "symbol": "GARS1-DT",
+        "status": "Approved"
+      }
+    ]
+  }
+]

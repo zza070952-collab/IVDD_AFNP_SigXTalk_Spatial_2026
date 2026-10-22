@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "original_own_code_filename": "af_build_identity.py",
+      "sha256": "cbe1f2423056fd376836c4ed7531a2fe62b43f2c387b312f12cfbcdaa30bec8d"
+    },
+    {
+      "original_own_code_filename": "sig_prepare.py",
+      "sha256": "c8e93ff338a12ee3c2e2fa07ba34650d094c48b809b3ff188bfd5b2b612a0a71"
+    }
+  ],
+  "scientific_af_rules_retained": true,
+  "path_adaptation": true,
+  "strict_failure_change": "Scrublet failure stops instead of retaining all fallback singlets",
+  "full_raw_execution_this_module": "NOT_RUN_LOCALLY",
+  "counts_reconstruction": "reads raw public 10x integer data after independent seeded sampling; no expression from scores",
+  "original_selection_seed": 20261017
+}

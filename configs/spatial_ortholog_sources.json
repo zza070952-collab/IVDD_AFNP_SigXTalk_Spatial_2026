@@ -1,0 +1,26 @@
+{
+  "source_url": "https://www.informatics.jax.org/downloads/reports/HOM_ProteinCoding.rpt",
+  "description_url": "https://www.informatics.jax.org/downloads/reports/index.html",
+  "retrieved_utc": "2026-10-21T14:05:39.268146+00:00",
+  "status": 200,
+  "bytes": 782269,
+  "sha256": "066c2227d9bd5fb43e5d9ab9e7cb34ab630b63124e30ac6214e491ddab89f105",
+  "Last-Modified": "Mon, 19 Oct 2026 12:00:24 GMT",
+  "ETag": "\"befbd-65e30425b1fbc\"",
+  "release": "No numbered release supplied in the report; timestamped official snapshot",
+  "ensembl_lookup": {
+    "url": "https://rest.ensembl.org/lookup/symbol/mus_musculus",
+    "request_species": "mus_musculus",
+    "requested_symbols": 99,
+    "bytes": 44588,
+    "status": 200,
+    "sha256": "d28d90c1da025206104e3b43b637e8a9dd4661b822ec35448ce51e0b7aea1016",
+    "date_utc": "2026-10-21T14:06:59.987467+00:00",
+    "purpose": "Stable mouse Ensembl gene-ID lookup only; MGI supplies orthology class"
+  },
+  "ensembl_release": {
+    "releases": [
+      116
+    ]
+  }
+}

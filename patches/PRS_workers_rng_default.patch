@@ -1,0 +1,21 @@
+--- a/R/MLNconstruct.R
++++ b/R/MLNconstruct.R
+@@ -283,7 +283,9 @@
+ 
+   # Use parallel computing
+   Ncores <- parallel::detectCores()
+-  cl <- snow::makeSOCKcluster(min(24, Ncores))
++  cl <- snow::makeSOCKcluster(min(4, Ncores))
++  parallel::clusterSetRNGStream(cl, iseed=20261017)
++  parallel::clusterEvalQ(cl, options(ranger.num.threads=1))
+   doSNOW::registerDoSNOW(cl)
+   pb <- txtProgressBar(min = 0, max = length(TFTG_All), style = 3)
+   progress <- function(n) setTxtProgressBar(pb, n);
+@@ -302,6 +304,7 @@
+     .options.snow = opts, .errorhandling = "pass"
+   ) %dopar% {
+ 
++    set.seed(20261017L + i)
+     tftg_name <- TFTG_All[i]
+     tf_name <- strsplit(tftg_name, "_", fixed = T)[[1]][1]
+     tg_name <- strsplit(tftg_name, "_", fixed = T)[[1]][2]

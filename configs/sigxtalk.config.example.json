@@ -1,0 +1,52 @@
+{
+  "project_root": "..",
+  "module_dir": "02_sigxtalk_official_new",
+  "input_dir": "02_sigxtalk_official_new/input",
+  "pairing_tsv": "02_sigxtalk_official_new/input/verified_AF_NP_pairing.tsv",
+  "state_thresholds_tsv": "02_sigxtalk_official_new/input/frozen_receiver_thresholds.tsv",
+  "official_source": "02_sigxtalk_official_new/official_upstream/SigXTalk-4d8055c6c9539ff9e6875d0e731d933cb2dd69f9",
+  "frozen_programs_tsv": "01_human_programs/FROZEN_K5_PROGRAMS.tsv",
+  "r_library_paths": [
+    "envs/R_project_library"
+  ],
+  "rscript": "Rscript",
+  "python": "python",
+  "sender": "AF_stromal",
+  "receiver": "NP_GEP2_high",
+  "project_id": "IVDD_AFNP_GEP2_NEW_20261022",
+  "seed": 20261017,
+  "threads": 2,
+  "pbmc_rds": "data_cache/SigXTalk_demo_data.rds",
+  "smoke": {
+    "directory_name": "technical_smoke_100epochs",
+    "input_kind": "pbmc_rds",
+    "pbmc_receiver": "CD14_Mono",
+    "cap_cells_per_donor_group": 30,
+    "maximum_targets": 50,
+    "epochs": 100,
+    "max_prs_TFTG_pairs": 25
+  },
+  "target_selection": {
+    "top_n": 200,
+    "minimum_detection": 0.1
+  },
+  "prepare": {
+    "datatype": "data",
+    "exp_threshold": 0.1,
+    "CCC_threshold": 0.1,
+    "Fisher_threshold": 1
+  },
+  "hgnn": {
+    "epochs": 100,
+    "activation_threshold": 0.75,
+    "device": "cpu"
+  },
+  "prs": {
+    "expression_cutoff": 0.1,
+    "coexpression_cutoff": 0.1,
+    "relative_max_threshold": 0.01,
+    "remove_mito_ribosomal_targets": true,
+    "bounded_resource_wrapper": true,
+    "workers": 4
+  }
+}

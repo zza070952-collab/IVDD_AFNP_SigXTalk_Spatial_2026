@@ -1,0 +1,12 @@
+package	version
+CellChat	2.1.2
+Matrix	1.7-6
+NMF	0.28
+presto	1.1.0
+ranger	0.18.0
+recipes	1.4.0
+Seurat	5.2.1
+SeuratObject	5.0.2
+SigXTalkR	0.1.0
+tidyfst	1.8.4
+tidymodels	1.4.1

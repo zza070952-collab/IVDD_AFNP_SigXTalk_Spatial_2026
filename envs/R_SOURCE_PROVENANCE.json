@@ -1,0 +1,23 @@
+[
+  {
+    "package": "presto",
+    "source_repo": "https://github.com/immunogenomics/presto",
+    "commit": "b5df6ee6097eb62522f2e557aa93ac21bab2d05f",
+    "ref": "master",
+    "archive_sha256": "e17eb0037ff6f32bb546a539a925c3c34bbbecd936de5ec8ecbc35c31d5e26ab"
+  },
+  {
+    "package": "CellChat",
+    "source_repo": "https://github.com/jinworks/CellChat",
+    "commit": "a0d3b2d231d46c8787177fffeac908270c253747",
+    "ref": "v2.1.2",
+    "archive_sha256": "70858348211503a8531f94d9c8468d4060c5e877407df564a8c11fd328b2c593"
+  },
+  {
+    "package": "SigXTalkR",
+    "source_repo": "https://github.com/LithiumHou/SigXTalk",
+    "commit": "4d8055c6c9539ff9e6875d0e731d933cb2dd69f9",
+    "ref": "4d8055c6c9539ff9e6875d0e731d933cb2dd69f9",
+    "archive_sha256": "8d41ca5ef17665ef8fd520a6ea157f62bce2ca55514682d81024060df2f02a13"
+  }
+]

@@ -1,0 +1,2 @@
+R version 4.4.3 (2025-02-28) 
+R_CORE_COMPATIBILITY_PIN=SeuratObject5.0.2

@@ -1,0 +1,42 @@
+{
+  "K": 5,
+  "spectra_shape": [
+    27264,
+    5
+  ],
+  "source_lock_sha256": "12905c6475cd4f3dd07c660efeee15e60d59f592c8f74c6cc60202f549110da2",
+  "checks": [
+    {
+      "program": "GEP1",
+      "lock_matches_original_spectra_top25_members": true,
+      "lock_matches_exported_sort_order": true,
+      "lock_matches_rebuild_order": true
+    },
+    {
+      "program": "GEP2",
+      "lock_matches_original_spectra_top25_members": true,
+      "lock_matches_exported_sort_order": true,
+      "lock_matches_rebuild_order": true
+    },
+    {
+      "program": "GEP3",
+      "lock_matches_original_spectra_top25_members": true,
+      "lock_matches_exported_sort_order": true,
+      "lock_matches_rebuild_order": true
+    },
+    {
+      "program": "GEP4",
+      "lock_matches_original_spectra_top25_members": true,
+      "lock_matches_exported_sort_order": true,
+      "lock_matches_rebuild_order": true
+    },
+    {
+      "program": "GEP5",
+      "lock_matches_original_spectra_top25_members": true,
+      "lock_matches_exported_sort_order": false,
+      "lock_matches_rebuild_order": true
+    }
+  ],
+  "tie_note": "GEP5 rank10/11 AC013287.1 and AL160408.1 have equal exported score0.0064955824037216; preserve authoritative lock order, not runtime-dependent sort tie order. Top25 membership is unchanged.",
+  "cnmf_rerun_performed": false
+}

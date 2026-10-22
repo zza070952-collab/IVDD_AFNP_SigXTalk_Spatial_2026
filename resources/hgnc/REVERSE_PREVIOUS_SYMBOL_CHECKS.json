@@ -1,0 +1,176 @@
+[
+  {
+    "field": "prev_symbol",
+    "value": "CTGF",
+    "original_gene": "CCN2",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:2500",
+    "records": [
+      {
+        "hgnc_id": "HGNC:2500",
+        "symbol": "CCN2",
+        "status": "Approved",
+        "prev_symbol": [
+          "CTGF"
+        ],
+        "alias_symbol": [
+          "IGFBP8"
+        ]
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "C2orf40",
+    "original_gene": "ECRG4",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:24642",
+    "records": [
+      {
+        "hgnc_id": "HGNC:24642",
+        "symbol": "ECRG4",
+        "status": "Approved",
+        "prev_symbol": [
+          "C2orf40"
+        ],
+        "alias_symbol": [
+          "augurin"
+        ]
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "C2orf82",
+    "original_gene": "SNORC",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:33763",
+    "records": [
+      {
+        "hgnc_id": "HGNC:33763",
+        "symbol": "SNORC",
+        "status": "Approved",
+        "prev_symbol": [
+          "C2orf82"
+        ],
+        "alias_symbol": [
+          "UNQ830",
+          "ASCL830"
+        ]
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "UBE3A-AS1",
+    "original_gene": "SNHG14",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:37462",
+    "records": [
+      {
+        "hgnc_id": "HGNC:37462",
+        "symbol": "SNHG14",
+        "status": "Approved",
+        "prev_symbol": [
+          "UBE3A-AS1",
+          "IPW"
+        ],
+        "alias_symbol": [
+          "NCRNA00214",
+          "UBE3A-AS",
+          "UBE3A-ATS"
+        ]
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "IPW",
+    "original_gene": "SNHG14",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:37462",
+    "records": [
+      {
+        "hgnc_id": "HGNC:37462",
+        "symbol": "SNHG14",
+        "status": "Approved",
+        "prev_symbol": [
+          "UBE3A-AS1",
+          "IPW"
+        ],
+        "alias_symbol": [
+          "NCRNA00214",
+          "UBE3A-AS",
+          "UBE3A-ATS"
+        ]
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "OR6J2",
+    "original_gene": "OR6J1",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:14707",
+    "records": [
+      {
+        "hgnc_id": "HGNC:14707",
+        "symbol": "OR6J1",
+        "status": "Approved",
+        "prev_symbol": [
+          "OR6J2",
+          "OR6J1P"
+        ],
+        "alias_symbol": null
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "OR6J1P",
+    "original_gene": "OR6J1",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": "HGNC:14707",
+    "records": [
+      {
+        "hgnc_id": "HGNC:14707",
+        "symbol": "OR6J1",
+        "status": "Approved",
+        "prev_symbol": [
+          "OR6J2",
+          "OR6J1P"
+        ],
+        "alias_symbol": null
+      }
+    ]
+  },
+  {
+    "field": "prev_symbol",
+    "value": "GARS-DT",
+    "original_gene": "GARS-DT",
+    "http_status": 200,
+    "n_records": 1,
+    "expected_hgnc": null,
+    "records": [
+      {
+        "hgnc_id": "HGNC:48951",
+        "symbol": "GARS1-DT",
+        "status": "Approved",
+        "prev_symbol": [
+          "GARS-DT"
+        ],
+        "alias_symbol": [
+          "AC005154.6",
+          "AC005154.1"
+        ]
+      }
+    ]
+  }
+]

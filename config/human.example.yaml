@@ -1,0 +1,39 @@
+# All paths are portable examples. Keep machine-specific configurations private.
+project_root: .
+executables:
+  human_python: python
+  discovery_python: python
+  rscript: Rscript
+  # python_addons: envs/python_addons
+resources:
+  programs: resources/frozen_k5/FROZEN_K5_PROGRAMS.tsv
+  lock: resources/frozen_k5/PROGRAM_LOCK.json
+  frozen_dir: resources/frozen_k5
+  discovery_samples: resources/metadata/DISCOVERY_SAMPLE_MANIFEST.tsv
+  tu_crosswalk: resources/metadata/TU_GEO_PAPER_GRADE_CROSSWALK.tsv
+  tu_downloads: resources/metadata/TU_DOWNLOAD_URLS_AND_SIZES.tsv
+  hgnc_alias_candidates: resources/hgnc/ALIAS_CANDIDATES.tsv
+tu:
+  raw_dir: data_cache/GSE165722
+  # Optional actual cell-level caches; omit to reparse/rescore cached GEO matrices.
+  # cached_tables_dir: data_cache/prior_human_tables
+  min_features: 200
+  max_mito_fraction: 0.20
+  n_up: 1500
+  tmin: 5
+  bsize: 256
+  threads: 2
+discovery:
+  phase2_workspace: data_cache/discovery_original_route
+  rebuild_workspace: data_cache/discovery_identity_rebuild
+  cached_metadata: data_cache/discovery_identity_rebuild/tables/discovery_cell_metadata.tsv.gz
+  cached_scores: data_cache/discovery_identity_rebuild/tables/discovery_programs_UCell.tsv.gz
+  # Optional verified AF counts; missing input is shown as NP-only coverage.
+  # af_donor_counts: data_cache/AF_NP_DONOR_CELL_COUNTS.tsv
+interpretation:
+  # Optional human-reviewed labels must bind the exact actual-summary SHA256.
+  # review_decisions: resources/HUMAN_REVIEW_DECISIONS.json
+
+
+# Optional private paths+expected SHA256; full fitted weights are never bundled.
+private_model_artifacts: []

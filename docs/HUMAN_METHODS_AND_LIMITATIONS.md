@@ -1,0 +1,22 @@
+# Human program projection: methods and limits
+
+The public data entry points are [GSE230808](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230808), [GSE229711](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229711) and [GSE165722](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165722). The main disease NP projection uses GSE230808; GSE229711 is retained in the provenance manifest, not automatically used to claim a cross-series disease effect. Ages and series/condition are confounded.
+
+Tu supplementary expression files are officially described as normalised counts. The parser verifies all values for finiteness/nonnegativity/integer status but never infers raw-UMI status from the filename or integer appearance. It processes one gene row at a time into float64 sparse storage, explicitly sums duplicate submitted symbols and validates the CellName/CellIndex companion mapping. Published values are not rounded, imputed to positive expression or transformed into negative-binomial raw counts.
+
+QC retains at least200 detected genes, positive expression sum and mitochondrial-expression fraction no greater than0.20. These are processed-expression checks, not raw-UMI estimates. Cell labels describe transparent fixed marker co-detection support, with mixed and unresolved identities retained. No GEP2 score is used to assign the NP identity. Several GEP5 members overlap the NP marker rule, so GEP5 specificity is not fully independent of annotation.
+
+The frozen original125 gene names remain unchanged. HGNC snapshot relationships are accepted only when an authoritative identity maps to precisely one feature actually present in a sample. Unavailable and ambiguous features remain unavailable. Missing-gene detection is never turned into a positive hotspot. The known V2 corrections link CCN2 to CTGF, GARS-DT to AC005154.6, ECRG4 to C2orf40 and SNORC to C2orf82. Exact sample-level decisions are regenerated from the actual feature lists; no expression-strength selection is used.
+
+New Tu enrichment uses official decoupler2.2.0 AUCell, sparse AnnData input, n_up1500,tmin5 and bounded sparse batch size256. Official extraction permutes features with internal seed0, followed by ordinal ranks. The original125-member lists remain intact, while official unavailable/empty-target pruning and its effective AUC denominator are reported separately. No AUCell P values are invented. The pinned implementation is an external dependency rather than a copied implementation.
+
+Saved discovery scores used official UCell2.4.0. AUCell and UCell have different score definitions and feature handling. Their absolute numerical scales are not compared. Donor summaries, measured multi-gene coverage and within-cohort identity context carry the interpretation. Cells are not independent biological patients. Small identity populations and donor imbalance stay visible.
+
+The GEO I-IV versus Tu paper Table1 Pfirrmann II-V correspondence remains unresolved beyond sample-number matching. Until an author-confirmed crosswalk is obtained, clinical grade association is UNTESTABLE. The pipeline performs no definitive grade-progression test or independent disease-effect replication claim. Tu contains NP only, so it cannot replicate a whole AF-to-NP communication axis.
+
+Optional reviewer labels are accepted only if they bind the exact regenerated donor-summary SHA256. Otherwise the output remains REQUIRES_BIOLOGICAL_REVIEW; no arbitrary score threshold manufactures a CONSISTENT result.
+
+This bundle supplies executable raw processing, historical discovery reconstruction, program projection, tables and figure code. Preparing it does not itself prove a full clean-machine raw-to-final run. The historical R package closure must be restored for exact discovery UCell reconstruction; failures remain failures. Cached mode requires actual per-cell metadata and scores and does not reconstruct expression or scores from summary tables. Raw public matrices, per-cell identifiers, model intermediates and internal logs are not included in the public code bundle.
+
+Relevant sources: Tu et al., Advanced Science2022, doi:10.1002/advs.202103631; Swahn et al., Advanced Science2024, doi:10.1002/advs.202309032; Andreatta and Carmona, CSBJ2021, doi:10.1016/j.csbj.2021.06.043; Aibar et al., Nature Methods2017, doi:10.1038/nmeth.4463. Package versions and exact installed implementation receipts should accompany executed analyses.
+

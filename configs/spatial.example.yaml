@@ -1,0 +1,21 @@
+# Paths below are relative to --project-root, except *_config paths, which are
+# relative to this YAML file. Runtime data, source images and counts stay private.
+raw_tar: data_cache/GSE287499_RAW.tar
+raw_url: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE287nnn/GSE287499/suppl/GSE287499_RAW.tar
+raw_bytes: 41461760
+raw_sha256: cc405fd3acd18abec4e04199ea043a35de06eec3142181045dd9c42b3cddc652
+baseline_cache: data_cache/spatial_stage
+cached_spatial: data_cache/spatial_stage
+depth_output: 03_spatial_gse287499
+figure_output: 05_figures
+roi_config: frozen_spatial_rois.json
+mapping_config: frozen_human_mouse_targeted_mapping.tsv
+mapping_sha256: 1e528a4d004e01221ad0b6683efd221cd2cfb67ee372094fa80f1ea40b62a3ec
+mapping_sources_config: spatial_ortholog_sources.json
+programs_config: frozen_k5_programs.tsv
+programs_sha256: 475e4f6b55b24a0d8404e0ed22077fbe72d1b06ef34f897070e453f86c1054a4
+depth_config: spatial_depth100.json
+programs: [GEP2, GEP5]
+candidates: [FN1, ITGB1, PRSS23, CCN2, PLOD2, THBS1, LOX, TGFBI, GJA1, CD44, IGFBP3]
+min_counts: 20
+min_genes: 20

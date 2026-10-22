@@ -1,0 +1,62 @@
+[
+  {
+    "artifact": "phase2_qc",
+    "file_name": "03_load_qc.py",
+    "bytes": 10936,
+    "sha256": "8f12c0ef2d639bd2e466c5f5062c31e2aa102e7b9135a0745dca0a35864f8a90"
+  },
+  {
+    "artifact": "phase2_cnmf",
+    "file_name": "04_run_cnmf.py",
+    "bytes": 4030,
+    "sha256": "b2e99123d04ed5816aacfa6d06b79dc543cc1b6b94fc2ec7a16adcbda16968c7"
+  },
+  {
+    "artifact": "phase2_lock",
+    "file_name": "05_lock_programs.py",
+    "bytes": 3138,
+    "sha256": "5279c20d37fc094563fa5c36606a5fb5356b49a4f8009add958732f35723f012"
+  },
+  {
+    "artifact": "rebuild_identity",
+    "file_name": "01_identity.py",
+    "bytes": 5064,
+    "sha256": "a4cce6141bdc50cf2492851ac62e2f1c6a095a9650caa6d3807a3e20b84b1b4b"
+  },
+  {
+    "artifact": "rebuild_common",
+    "file_name": "common.py",
+    "bytes": 1090,
+    "sha256": "007ca90f9b4cce117af87ea135fe28742a1c42f4e2ad6e0e36096edcc0cce601"
+  },
+  {
+    "artifact": "rebuild_programs",
+    "file_name": "02_programs.py",
+    "bytes": 4431,
+    "sha256": "7f60a234e2777faea9f74663616080e679bb01dc46e3b46066373e43f268c0fa"
+  },
+  {
+    "artifact": "rebuild_ucell",
+    "file_name": "03_ucell.R",
+    "bytes": 1880,
+    "sha256": "3ffd9710f0ce78c0a478a308e49d6904910a2bc7eac40782e89d12cd664b6ff4"
+  },
+  {
+    "artifact": "rebuild_ucell_session",
+    "file_name": "UCell_discovery_programs_session.txt",
+    "bytes": 1885,
+    "sha256": "fc6971622dcbadc18ec1819a42e40563b7534b4384537837a764dca933fa7ec2"
+  },
+  {
+    "artifact": "cnmf_run_log",
+    "file_name": "04_cnmf.log",
+    "bytes": 1122,
+    "sha256": "e6fdfd676d7eecd3eaa652c6163389f2a5e9ea8fed773a5e069a4ed9285f3cd0"
+  },
+  {
+    "artifact": "cnmf_exit",
+    "file_name": "04_cnmf.exitcode",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  }
+]

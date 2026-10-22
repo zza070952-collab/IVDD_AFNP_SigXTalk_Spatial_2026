@@ -1,0 +1,20 @@
+{
+  "analysis_id": "frozen_single_depth100_20261022",
+  "predeclared_date": "2026-10-22",
+  "method": "one_fixed_seed_multivariate_hypergeometric_sample_without_replacement_per_eligible_bin",
+  "target_total_UMI": 100,
+  "minimum_original_total_UMI": 100,
+  "seed": 20261022,
+  "program": "GEP2",
+  "expected_roi_sha256": "ef8cf1b835a0dbb9e938f5a8be3ca55757bc8c1ebcda4bb218620d2cac72fd31",
+  "regions": ["NP_CORE", "AF_CORE"],
+  "minimum_retained_bins_per_disc_region": 5,
+  "minimum_paired_discs_per_capture": 3,
+  "score": "unweighted_mean_log1p_CP10k_over_the_same_frozen_available_one_to_one_members_zeros_retained",
+  "score_reproduction_absolute_tolerance": 1e-9,
+  "biological_unit": "disc_nested_in_capture; individual_animal_id_unavailable",
+  "genotype_significance_testing": false,
+  "bin_level_p_values": false,
+  "alternate_depths_or_iterative_tuning": false,
+  "rationale": "100 molecules provides one simple common library size at the existing 48um scale. A minimum five retained bins per compartment and three paired discs per capture is a declared descriptive coverage safeguard, not a power calculation. No threshold is selected from the outcome. All excluded and low-coverage discs remain in the output."
+}

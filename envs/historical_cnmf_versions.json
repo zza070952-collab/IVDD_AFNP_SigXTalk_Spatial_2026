@@ -1,0 +1,17 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "pandas": "2.3.3",
+    "anndata": "0.10.8",
+    "scanpy": "1.11.5",
+    "scikit-learn": "1.7.2",
+    "cnmf": "1.7.1",
+    "matplotlib": "3.10.9",
+    "openpyxl": "3.1.5"
+  },
+  "UCell": "2.4.0",
+  "R": "4.3.1",
+  "seed": 20261012
+}

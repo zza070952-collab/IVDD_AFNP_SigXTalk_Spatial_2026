@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/LithiumHou/SigXTalk",
+  "commit": "4d8055c6c9539ff9e6875d0e731d933cb2dd69f9",
+  "git_blob_sha1": {
+    "R/Crosstalk_analysis.R": "0149bd7bc1aee5d21f7370c162e5f319ef1ed3b7",
+    "R/MLNconstruct.R": "5796725b28ddf206abf6ba25c76a9cc76e9e323b",
+    "R/Utilities.R": "8a67d272648c057a7cdcefa390fb6312da1f9431",
+    "pythoncodes/SigXTalkpy/__init__.py": "d6f76e9b7b851ffd70274d7672b53a3e1e562ae1",
+    "pythoncodes/SigXTalkpy/predictor.py": "4ed5f39dcb5c7cc2bd2f8d190af1cf1e3e9a5690",
+    "pythoncodes/SigXTalkpy/preprocessing.py": "677eb011c5f82e2fee6df0a272321c5b906c7396",
+    "pythoncodes/SigXTalkpy/training.py": "7604df5b7ff4edab2e3919f8ce41f3e4acee7c78",
+    "vignettes/main.py": "2feb2d0323916c2830d0457513c7b90d5affb892"
+  },
+  "attribution": "Jiawen Hou, Wei Zhao, Qing Nie;Nature Communications2025;MIT upstream code;no upstream source vendored in public wrappers"
+}

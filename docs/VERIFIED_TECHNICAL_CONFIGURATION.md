@@ -1,0 +1,3 @@
+# Verified technical validation configuration
+
+The distributed SigXTalk example uses the successfully executed PBMC real-data technical subset: cap30 cells per identity, at most50 receptor-cell-type DEGs,100 official training epochs, fixed PA>0.75 and at most25 sorted TF-target pairs for the technical PRS check. It is not the full published PBMC benchmark or an IVDD result. The earlier2-epoch attempt returned no activated pathways and could not close PRS; its error and model remain in the private execution audit. Formal IVDD analysis retains100epochs and all qualifying PRS axes under its separate frozen design. Set the exact installed Rscript and Python3.8 interpreter paths before running. Public examples never overwrite the completed private configuration.

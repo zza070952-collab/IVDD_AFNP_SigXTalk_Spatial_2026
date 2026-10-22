@@ -1,0 +1,24 @@
+# Repo-relative module/config paths; runtime paths are relative to project_root.
+project_root: analysis
+executables:
+  science_python: python
+  # python_addons: envs/python_addons
+modules:
+  human_config: config/human.example.yaml
+  raw_selection_config: config/raw_selection.pipeline.example.json
+  sigxtalk_config: configs/sigxtalk.config.example.json
+  spatial_config: configs/spatial.example.yaml
+  integration_config: config/integration.example.yaml
+downloads:
+  include_official_source: true
+  include_official_demo: true
+  demo_url: https://zenodo.org/api/records/15531285/files/SigXTalk_demo_data.rds/content
+  # Verified downloaded official Zenodo file,287416812 bytes.
+  demo_sha256: 2922ef566b7f519f33bf7835ac3890beca5a7acc6b4c4f843ee90a80aa3a444b
+human:
+  tu_sparse_root: data_cache/Tu_sparse
+  candidate_mapping: 01_human_programs/PROGRAM_GENE_MAPPING.tsv
+  candidate_output: 01_human_programs/TU_CANDIDATE_GENE_BY_DONOR_IDENTITY.tsv
+integration:
+  github_proof: null
+  allow_incomplete_b: false

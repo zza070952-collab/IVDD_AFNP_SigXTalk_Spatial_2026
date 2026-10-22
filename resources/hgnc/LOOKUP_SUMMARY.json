@@ -1,0 +1,184 @@
+[
+  {
+    "query": "CCN2",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:2500",
+        "symbol": "CCN2",
+        "name": "cellular communication network factor 2",
+        "status": "Approved",
+        "prev_symbol": [
+          "CTGF"
+        ],
+        "alias_symbol": [
+          "IGFBP8"
+        ],
+        "ensembl_gene_id": "ENSG00000118523"
+      }
+    ]
+  },
+  {
+    "query": "ECRG4",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:24642",
+        "symbol": "ECRG4",
+        "name": "ECRG4 augurin precursor",
+        "status": "Approved",
+        "prev_symbol": [
+          "C2orf40"
+        ],
+        "alias_symbol": [
+          "augurin"
+        ],
+        "ensembl_gene_id": "ENSG00000119147"
+      }
+    ]
+  },
+  {
+    "query": "SNORC",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:33763",
+        "symbol": "SNORC",
+        "name": "secondary ossification center associated regulator of chondrocyte maturation",
+        "status": "Approved",
+        "prev_symbol": [
+          "C2orf82"
+        ],
+        "alias_symbol": [
+          "UNQ830",
+          "ASCL830"
+        ],
+        "ensembl_gene_id": "ENSG00000182600"
+      }
+    ]
+  },
+  {
+    "query": "MSMP",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:29663",
+        "symbol": "MSMP",
+        "name": "microseminoprotein, prostate associated",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "PC-3",
+          "PSMP"
+        ],
+        "ensembl_gene_id": "ENSG00000215183"
+      }
+    ]
+  },
+  {
+    "query": "GARS-DT",
+    "http_status": 200,
+    "n_records": 0,
+    "records": []
+  },
+  {
+    "query": "KCNQ1OT1",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:6295",
+        "symbol": "KCNQ1OT1",
+        "name": "KCNQ1 opposite strand/antisense transcript 1",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "KvDMR1",
+          "KCNQ1-AS2",
+          "KvLQT1-AS",
+          "LIT1",
+          "NCRNA00012"
+        ],
+        "ensembl_gene_id": "ENSG00000269821"
+      }
+    ]
+  },
+  {
+    "query": "MIR100HG",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:39522",
+        "symbol": "MIR100HG",
+        "name": "mir-100-let-7a-2-mir-125b-1 cluster host gene",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "AGD1",
+          "lncRNA-N2",
+          "linc-NeD125"
+        ],
+        "ensembl_gene_id": "ENSG00000255248"
+      }
+    ]
+  },
+  {
+    "query": "SNHG14",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:37462",
+        "symbol": "SNHG14",
+        "name": "small nucleolar RNA host gene 14",
+        "status": "Approved",
+        "prev_symbol": [
+          "UBE3A-AS1",
+          "IPW"
+        ],
+        "alias_symbol": [
+          "NCRNA00214",
+          "UBE3A-AS",
+          "UBE3A-ATS"
+        ],
+        "ensembl_gene_id": "ENSG00000224078"
+      }
+    ]
+  },
+  {
+    "query": "Z83843.1",
+    "http_status": 200,
+    "n_records": 0,
+    "records": []
+  },
+  {
+    "query": "AC013287.1",
+    "http_status": 200,
+    "n_records": 0,
+    "records": []
+  },
+  {
+    "query": "OR6J1",
+    "http_status": 200,
+    "n_records": 1,
+    "records": [
+      {
+        "hgnc_id": "HGNC:14707",
+        "symbol": "OR6J1",
+        "name": "olfactory receptor family 6 subfamily J member 1",
+        "status": "Approved",
+        "prev_symbol": [
+          "OR6J2",
+          "OR6J1P"
+        ],
+        "alias_symbol": null,
+        "ensembl_gene_id": "ENSG00000255804"
+      }
+    ]
+  }
+]

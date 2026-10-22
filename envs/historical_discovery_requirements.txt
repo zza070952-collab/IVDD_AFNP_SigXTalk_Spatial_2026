@@ -1,0 +1,15 @@
+# Isolated historical reconstruction environment; do not replace shared libraries.
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.3.3
+anndata==0.10.8
+scanpy==1.11.5
+scikit-learn==1.7.2
+cnmf==1.7.1
+igraph==1.0.0
+leidenalg==0.12.0
+threadpoolctl
+scikit-image
+matplotlib==3.10.9
+# R discovery scores additionally require isolated R4.3.1, UCell2.4.0,
+# hdf5r1.3.8 and Matrix1.6-4, as documented in historical session records.

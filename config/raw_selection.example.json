@@ -1,0 +1,19 @@
+{
+  "project_root": "analysis",
+  "raw_selection": {
+    "python": "python",
+    "af_python": "python",
+    "sample_manifest": "resources/metadata/SIGXTALK_GSE230808_SOURCE_MANIFEST.tsv",
+    "raw_dir": "data_cache/GSE230808",
+    "human_config": "config/human.example.yaml",
+    "human_discovery_driver": "scripts/01_discovery_np_cnmf.py",
+    "af_identity_dir": "data_cache/af_identity",
+    "cached_discovery_metadata": "data_cache/discovery_identity_rebuild/tables/discovery_cell_metadata.tsv.gz",
+    "cached_discovery_scores": "data_cache/discovery_identity_rebuild/tables/discovery_programs_UCell.tsv.gz",
+    "cached_af_metadata": "data_cache/af_identity/tables/AF_CELL_METADATA.tsv.gz",
+    "output_dir": "02_sigxtalk_official_new/input",
+    "audit_dir": "02_sigxtalk_official_new",
+    "allow_common_gene_intersection": false,
+    "require_raw_umi_equal_to_metadata": true
+  }
+}

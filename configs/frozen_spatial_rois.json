@@ -1,0 +1,1427 @@
+{
+  "schema_version": 1,
+  "frozen_date": "2026-10-21",
+  "annotation_status": "PROVISIONAL_HE_CORES_FROZEN_BEFORE_SPATIAL_MARKER_OR_PROGRAM_EXPRESSION",
+  "annotation_origin": "New computational visual review of the genuine original H&E; no old unresolved polygon was reused",
+  "coordinate_system": "Original full-resolution image pixels; x=pxl_col, y=pxl_row; upper-left origin; y increases downward",
+  "edge_margin_rule": "At least the half diagonal of a 48-um square: sqrt(2)*48/(2*microns_per_pixel); exclude centers closer to any polygon edge",
+  "source_marker_policy": "Freeze H&E polygons first. Independent markers may support a polygon or leave it UNRESOLVED; never move edges to chase expression",
+  "validation_markers": {
+    "NP": [
+      "Krt19",
+      "T",
+      "Krt8",
+      "Acan"
+    ],
+    "AF": [
+      "Chad",
+      "Clec3a"
+    ]
+  },
+  "excluded_roi_markers": [
+    "Fn1",
+    "Comp"
+  ],
+  "candidate_and_program_expression_read": false,
+  "expert_histopathology_verification": false,
+  "captures": [
+    {
+      "capture_id": "GSM8746576_CTR",
+      "source_GSM": "GSM8746576",
+      "genotype": "CTR",
+      "source_image_filename": "GSM8746576_CTR_tissue_hires_image.png",
+      "source_image_sha256": "edde9102ee1e6d9e7f62bd89ca0a31aaee9a41b4c217f54a7e2c539d78300842",
+      "source_image_pixels": [
+        2000,
+        1976
+      ],
+      "microns_per_pixel": 4.775132370875076,
+      "overview_display_window_pixels": [
+        100,
+        1100,
+        100,
+        1800
+      ],
+      "region_scope": "Conservative central NP and bilateral clearly lamellar AF cores only; CEP, growth plate, interface, neighboring tissue and unclear edges remain unassigned",
+      "exclusion_circles": [
+        {
+          "disc_id": "CTR_TL",
+          "center": [
+            300,
+            490
+          ],
+          "radius_pixels": 14,
+          "reason": "Black artificial circular mark within/near lower-left NP"
+        },
+        {
+          "disc_id": "CTR_TL",
+          "center": [
+            270,
+            520
+          ],
+          "radius_pixels": 12,
+          "reason": "Black artificial circular mark near lower-left AF/interface"
+        }
+      ],
+      "discs": [
+        {
+          "disc_id": "CTR_TL",
+          "position": "top_left",
+          "morphological_confidence": "provisional_moderate",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  288,
+                  486
+                ],
+                [
+                  306,
+                  470
+                ],
+                [
+                  346,
+                  449
+                ],
+                [
+                  389,
+                  437
+                ],
+                [
+                  431,
+                  427
+                ],
+                [
+                  455,
+                  430
+                ],
+                [
+                  468,
+                  445
+                ],
+                [
+                  461,
+                  467
+                ],
+                [
+                  437,
+                  485
+                ],
+                [
+                  402,
+                  499
+                ],
+                [
+                  357,
+                  505
+                ],
+                [
+                  320,
+                  503
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  205,
+                  441
+                ],
+                [
+                  219,
+                  452
+                ],
+                [
+                  229,
+                  475
+                ],
+                [
+                  250,
+                  506
+                ],
+                [
+                  271,
+                  524
+                ],
+                [
+                  265,
+                  538
+                ],
+                [
+                  245,
+                  528
+                ],
+                [
+                  224,
+                  506
+                ],
+                [
+                  207,
+                  479
+                ],
+                [
+                  196,
+                  456
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  506,
+                  393
+                ],
+                [
+                  523,
+                  405
+                ],
+                [
+                  538,
+                  424
+                ],
+                [
+                  548,
+                  449
+                ],
+                [
+                  547,
+                  475
+                ],
+                [
+                  538,
+                  499
+                ],
+                [
+                  521,
+                  518
+                ],
+                [
+                  503,
+                  510
+                ],
+                [
+                  514,
+                  490
+                ],
+                [
+                  524,
+                  466
+                ],
+                [
+                  522,
+                  444
+                ],
+                [
+                  511,
+                  420
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "disc_id": "CTR_TR",
+          "position": "top_right",
+          "morphological_confidence": "provisional_moderate",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  767,
+                  436
+                ],
+                [
+                  790,
+                  417
+                ],
+                [
+                  831,
+                  400
+                ],
+                [
+                  875,
+                  399
+                ],
+                [
+                  904,
+                  410
+                ],
+                [
+                  917,
+                  430
+                ],
+                [
+                  909,
+                  448
+                ],
+                [
+                  880,
+                  458
+                ],
+                [
+                  835,
+                  463
+                ],
+                [
+                  791,
+                  456
+                ],
+                [
+                  767,
+                  448
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  682,
+                  413
+                ],
+                [
+                  697,
+                  427
+                ],
+                [
+                  699,
+                  448
+                ],
+                [
+                  713,
+                  470
+                ],
+                [
+                  738,
+                  486
+                ],
+                [
+                  733,
+                  500
+                ],
+                [
+                  709,
+                  488
+                ],
+                [
+                  687,
+                  470
+                ],
+                [
+                  674,
+                  448
+                ],
+                [
+                  671,
+                  426
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  953,
+                  389
+                ],
+                [
+                  973,
+                  405
+                ],
+                [
+                  985,
+                  427
+                ],
+                [
+                  992,
+                  451
+                ],
+                [
+                  988,
+                  476
+                ],
+                [
+                  975,
+                  493
+                ],
+                [
+                  956,
+                  500
+                ],
+                [
+                  944,
+                  486
+                ],
+                [
+                  957,
+                  469
+                ],
+                [
+                  967,
+                  451
+                ],
+                [
+                  966,
+                  429
+                ],
+                [
+                  955,
+                  408
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "disc_id": "CTR_BL",
+          "position": "bottom_left",
+          "morphological_confidence": "provisional_moderate",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  319,
+                  1375
+                ],
+                [
+                  336,
+                  1357
+                ],
+                [
+                  374,
+                  1341
+                ],
+                [
+                  415,
+                  1334
+                ],
+                [
+                  450,
+                  1345
+                ],
+                [
+                  466,
+                  1361
+                ],
+                [
+                  452,
+                  1381
+                ],
+                [
+                  422,
+                  1392
+                ],
+                [
+                  383,
+                  1396
+                ],
+                [
+                  346,
+                  1390
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  224,
+                  1331
+                ],
+                [
+                  240,
+                  1344
+                ],
+                [
+                  244,
+                  1366
+                ],
+                [
+                  257,
+                  1390
+                ],
+                [
+                  285,
+                  1411
+                ],
+                [
+                  278,
+                  1426
+                ],
+                [
+                  254,
+                  1411
+                ],
+                [
+                  235,
+                  1392
+                ],
+                [
+                  224,
+                  1371
+                ],
+                [
+                  215,
+                  1350
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  499,
+                  1318
+                ],
+                [
+                  516,
+                  1330
+                ],
+                [
+                  531,
+                  1350
+                ],
+                [
+                  542,
+                  1374
+                ],
+                [
+                  539,
+                  1397
+                ],
+                [
+                  523,
+                  1417
+                ],
+                [
+                  503,
+                  1423
+                ],
+                [
+                  493,
+                  1410
+                ],
+                [
+                  508,
+                  1392
+                ],
+                [
+                  517,
+                  1373
+                ],
+                [
+                  509,
+                  1355
+                ],
+                [
+                  496,
+                  1338
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "disc_id": "CTR_BR",
+          "position": "bottom_right",
+          "morphological_confidence": "provisional_moderate",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  663,
+                  1378
+                ],
+                [
+                  670,
+                  1359
+                ],
+                [
+                  692,
+                  1345
+                ],
+                [
+                  724,
+                  1344
+                ],
+                [
+                  752,
+                  1352
+                ],
+                [
+                  785,
+                  1370
+                ],
+                [
+                  820,
+                  1388
+                ],
+                [
+                  849,
+                  1401
+                ],
+                [
+                  830,
+                  1406
+                ],
+                [
+                  800,
+                  1400
+                ],
+                [
+                  769,
+                  1392
+                ],
+                [
+                  735,
+                  1394
+                ],
+                [
+                  705,
+                  1395
+                ],
+                [
+                  680,
+                  1390
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  615,
+                  1344
+                ],
+                [
+                  630,
+                  1337
+                ],
+                [
+                  641,
+                  1347
+                ],
+                [
+                  637,
+                  1364
+                ],
+                [
+                  637,
+                  1385
+                ],
+                [
+                  646,
+                  1409
+                ],
+                [
+                  657,
+                  1421
+                ],
+                [
+                  646,
+                  1435
+                ],
+                [
+                  628,
+                  1419
+                ],
+                [
+                  614,
+                  1394
+                ],
+                [
+                  609,
+                  1370
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  865,
+                  1363
+                ],
+                [
+                  886,
+                  1377
+                ],
+                [
+                  908,
+                  1396
+                ],
+                [
+                  921,
+                  1416
+                ],
+                [
+                  919,
+                  1435
+                ],
+                [
+                  909,
+                  1447
+                ],
+                [
+                  888,
+                  1445
+                ],
+                [
+                  877,
+                  1434
+                ],
+                [
+                  887,
+                  1422
+                ],
+                [
+                  884,
+                  1406
+                ],
+                [
+                  867,
+                  1390
+                ],
+                [
+                  851,
+                  1375
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "capture_id": "GSM8746577_cKO",
+      "source_GSM": "GSM8746577",
+      "genotype": "cKO",
+      "source_image_filename": "GSM8746577_cKO_tissue_hires_image.png",
+      "source_image_sha256": "0ab152b3da02948cb620432432dfd2590bfd9a78ada4238f2a2920677ee2913c",
+      "source_image_pixels": [
+        1895,
+        2000
+      ],
+      "microns_per_pixel": 3.4359579495765873,
+      "overview_display_window_pixels": [
+        80,
+        1850,
+        60,
+        1980
+      ],
+      "region_scope": "Conservative central cellular NP remnant and bilateral lamellar AF cores only; CEP, growth plate, interfaces, cavities and unclear edges remain unassigned",
+      "exclusion_circles": [],
+      "discs": [
+        {
+          "disc_id": "cKO_TL",
+          "position": "top_left",
+          "morphological_confidence": "provisional_low_to_moderate_cavitated_central_tissue",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  520,
+                  572
+                ],
+                [
+                  543,
+                  558
+                ],
+                [
+                  583,
+                  565
+                ],
+                [
+                  622,
+                  575
+                ],
+                [
+                  652,
+                  586
+                ],
+                [
+                  646,
+                  605
+                ],
+                [
+                  613,
+                  618
+                ],
+                [
+                  574,
+                  614
+                ],
+                [
+                  542,
+                  602
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  405,
+                  424
+                ],
+                [
+                  431,
+                  434
+                ],
+                [
+                  453,
+                  458
+                ],
+                [
+                  465,
+                  482
+                ],
+                [
+                  466,
+                  506
+                ],
+                [
+                  474,
+                  528
+                ],
+                [
+                  457,
+                  546
+                ],
+                [
+                  435,
+                  533
+                ],
+                [
+                  424,
+                  511
+                ],
+                [
+                  410,
+                  488
+                ],
+                [
+                  394,
+                  470
+                ],
+                [
+                  390,
+                  447
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  715,
+                  529
+                ],
+                [
+                  743,
+                  541
+                ],
+                [
+                  764,
+                  564
+                ],
+                [
+                  768,
+                  590
+                ],
+                [
+                  759,
+                  616
+                ],
+                [
+                  743,
+                  640
+                ],
+                [
+                  718,
+                  660
+                ],
+                [
+                  693,
+                  671
+                ],
+                [
+                  682,
+                  654
+                ],
+                [
+                  703,
+                  634
+                ],
+                [
+                  723,
+                  610
+                ],
+                [
+                  731,
+                  587
+                ],
+                [
+                  723,
+                  563
+                ],
+                [
+                  704,
+                  548
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "disc_id": "cKO_TR",
+          "position": "top_right",
+          "morphological_confidence": "provisional_low_to_moderate_heterogeneous_central_tissue",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  1375,
+                  574
+                ],
+                [
+                  1407,
+                  568
+                ],
+                [
+                  1444,
+                  583
+                ],
+                [
+                  1476,
+                  606
+                ],
+                [
+                  1492,
+                  626
+                ],
+                [
+                  1487,
+                  643
+                ],
+                [
+                  1467,
+                  652
+                ],
+                [
+                  1435,
+                  636
+                ],
+                [
+                  1404,
+                  626
+                ],
+                [
+                  1384,
+                  610
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  1205,
+                  526
+                ],
+                [
+                  1225,
+                  535
+                ],
+                [
+                  1230,
+                  559
+                ],
+                [
+                  1225,
+                  585
+                ],
+                [
+                  1225,
+                  612
+                ],
+                [
+                  1239,
+                  641
+                ],
+                [
+                  1235,
+                  661
+                ],
+                [
+                  1213,
+                  664
+                ],
+                [
+                  1198,
+                  643
+                ],
+                [
+                  1191,
+                  617
+                ],
+                [
+                  1194,
+                  590
+                ],
+                [
+                  1194,
+                  563
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  1561,
+                  559
+                ],
+                [
+                  1586,
+                  572
+                ],
+                [
+                  1605,
+                  596
+                ],
+                [
+                  1613,
+                  622
+                ],
+                [
+                  1609,
+                  650
+                ],
+                [
+                  1593,
+                  677
+                ],
+                [
+                  1574,
+                  698
+                ],
+                [
+                  1553,
+                  704
+                ],
+                [
+                  1543,
+                  684
+                ],
+                [
+                  1562,
+                  665
+                ],
+                [
+                  1576,
+                  640
+                ],
+                [
+                  1578,
+                  617
+                ],
+                [
+                  1570,
+                  592
+                ],
+                [
+                  1549,
+                  575
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "disc_id": "cKO_BL",
+          "position": "bottom_left",
+          "morphological_confidence": "provisional_moderate",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  245,
+                  1470
+                ],
+                [
+                  270,
+                  1458
+                ],
+                [
+                  315,
+                  1460
+                ],
+                [
+                  355,
+                  1470
+                ],
+                [
+                  395,
+                  1480
+                ],
+                [
+                  417,
+                  1498
+                ],
+                [
+                  406,
+                  1513
+                ],
+                [
+                  375,
+                  1519
+                ],
+                [
+                  333,
+                  1508
+                ],
+                [
+                  291,
+                  1502
+                ],
+                [
+                  257,
+                  1489
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  182,
+                  1411
+                ],
+                [
+                  206,
+                  1416
+                ],
+                [
+                  220,
+                  1431
+                ],
+                [
+                  218,
+                  1456
+                ],
+                [
+                  215,
+                  1481
+                ],
+                [
+                  222,
+                  1507
+                ],
+                [
+                  235,
+                  1530
+                ],
+                [
+                  219,
+                  1546
+                ],
+                [
+                  199,
+                  1527
+                ],
+                [
+                  184,
+                  1503
+                ],
+                [
+                  177,
+                  1477
+                ],
+                [
+                  173,
+                  1449
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  475,
+                  1434
+                ],
+                [
+                  499,
+                  1447
+                ],
+                [
+                  519,
+                  1470
+                ],
+                [
+                  532,
+                  1493
+                ],
+                [
+                  536,
+                  1517
+                ],
+                [
+                  530,
+                  1538
+                ],
+                [
+                  515,
+                  1556
+                ],
+                [
+                  493,
+                  1566
+                ],
+                [
+                  481,
+                  1549
+                ],
+                [
+                  495,
+                  1531
+                ],
+                [
+                  502,
+                  1511
+                ],
+                [
+                  498,
+                  1487
+                ],
+                [
+                  485,
+                  1464
+                ],
+                [
+                  463,
+                  1451
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "disc_id": "cKO_BR",
+          "position": "bottom_right",
+          "morphological_confidence": "provisional_moderate",
+          "regions": [
+            {
+              "region": "NP_CORE",
+              "side": "central",
+              "vertices": [
+                [
+                  1045,
+                  1613
+                ],
+                [
+                  1078,
+                  1605
+                ],
+                [
+                  1127,
+                  1601
+                ],
+                [
+                  1176,
+                  1597
+                ],
+                [
+                  1214,
+                  1598
+                ],
+                [
+                  1236,
+                  1604
+                ],
+                [
+                  1230,
+                  1633
+                ],
+                [
+                  1204,
+                  1650
+                ],
+                [
+                  1167,
+                  1659
+                ],
+                [
+                  1125,
+                  1652
+                ],
+                [
+                  1080,
+                  1640
+                ],
+                [
+                  1050,
+                  1628
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "left",
+              "vertices": [
+                [
+                  952,
+                  1554
+                ],
+                [
+                  975,
+                  1562
+                ],
+                [
+                  992,
+                  1579
+                ],
+                [
+                  995,
+                  1600
+                ],
+                [
+                  994,
+                  1624
+                ],
+                [
+                  1004,
+                  1649
+                ],
+                [
+                  1015,
+                  1667
+                ],
+                [
+                  1000,
+                  1686
+                ],
+                [
+                  979,
+                  1674
+                ],
+                [
+                  962,
+                  1650
+                ],
+                [
+                  951,
+                  1626
+                ],
+                [
+                  945,
+                  1601
+                ],
+                [
+                  943,
+                  1576
+                ]
+              ]
+            },
+            {
+              "region": "AF_CORE",
+              "side": "right",
+              "vertices": [
+                [
+                  1308,
+                  1558
+                ],
+                [
+                  1334,
+                  1567
+                ],
+                [
+                  1350,
+                  1587
+                ],
+                [
+                  1361,
+                  1610
+                ],
+                [
+                  1362,
+                  1636
+                ],
+                [
+                  1354,
+                  1659
+                ],
+                [
+                  1335,
+                  1681
+                ],
+                [
+                  1316,
+                  1691
+                ],
+                [
+                  1300,
+                  1678
+                ],
+                [
+                  1313,
+                  1658
+                ],
+                [
+                  1324,
+                  1637
+                ],
+                [
+                  1328,
+                  1618
+                ],
+                [
+                  1320,
+                  1596
+                ],
+                [
+                  1299,
+                  1577
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "combined_freeze_utc": "2026-10-21T14:28:19.058177+00:00",
+  "CTR_original_annotation_file_sha256": "ba7863efa5748312dc11eea686000a7a23cdd8c1c8fb0e7394c90e3b38096201",
+  "cKO_coordinate_note": "Original position coordinates may extend beyond cropped image; retain originals and flag/exclude outside-image positions in preparation; no translation, clipping, rotation or swap"
+}

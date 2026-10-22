@@ -1,0 +1,19 @@
+{
+  "K_candidates": [
+    5,
+    7,
+    9
+  ],
+  "n_initializations_per_K": 20,
+  "seed": 20261012,
+  "num_highvar_genes": 2000,
+  "max_fitting_cells": 12000,
+  "max_NMF_iter": 1000,
+  "beta_loss": "frobenius",
+  "density_threshold": 0.5,
+  "local_neighborhood_size": 0.3,
+  "workers": 4,
+  "threads_per_worker": 1,
+  "normalization": "official_cNMF; no batch correction; counts input",
+  "main_K_rule": "Inspect official stability/error and descriptive marker composition; prefer parsimonious stable solution without reference to THBS1 or external outcomes. No new K or parameter search."
+}

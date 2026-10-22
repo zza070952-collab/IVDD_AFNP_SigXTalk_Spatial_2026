@@ -1,0 +1,7 @@
+# Technical fixtures only; not the scientific reproduction environment lock.
+numpy
+scipy
+pandas
+matplotlib
+Pillow
+PyYAML

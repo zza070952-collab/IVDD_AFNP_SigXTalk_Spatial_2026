@@ -1,0 +1,26 @@
+{
+  "source_summary_sha256": "401c84d6f2bbe4055806a5c68b7410a5308bbee458a064686bbbe1db76c993fa",
+  "review_origin": "Historical computational interpretation of the completed identifier-corrected adult cohort analysis; no score threshold classification",
+  "program_decisions": {
+    "GEP1": {
+      "label": "CONSISTENT",
+      "scope": "broad NP-associated expression context; not an ECM mechanism"
+    },
+    "GEP2": {
+      "label": "CONSISTENT",
+      "scope": "ECM-remodelling-associated NP expression; contractile component only partial"
+    },
+    "GEP3": {
+      "label": "MIXED",
+      "scope": "lncRNA-rich broad/mixed-lineage expression; NP-intrinsic specificity unsupported"
+    },
+    "GEP4": {
+      "label": "MIXED",
+      "scope": "weak/sparse cycling-associated expression, not broad active cycling-state confirmation"
+    },
+    "GEP5": {
+      "label": "MIXED",
+      "scope": "matrix-associated component consistent; inflammatory/stress component weak or heterogeneous"
+    }
+  }
+}

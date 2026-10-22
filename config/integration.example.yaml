@@ -1,0 +1,16 @@
+# All paths are relative to --project-root. Overrides are accepted on the CLI.
+tu_candidate_table: 01_human_programs/TU_CANDIDATE_GENE_BY_DONOR_IDENTITY.tsv
+frozen_programs: 01_human_programs/FROZEN_K5_PROGRAMS.tsv
+spatial_input: data_cache/spatial_stage
+human_dir: 01_human_programs
+sigxtalk_run: 02_sigxtalk_official_new/formal_new
+spatial_depth_dir: 03_spatial_gse287499
+integrated_out: 04_integrated
+manuscript_out: 06_manuscript
+figure_dir: 05_figures
+# Optional: actual pinned run configuration and a separately verified release receipt.
+# sigxtalk_config: config/sigxtalk.actual.json
+# github_proof: 08_review/GITHUB_RELEASE_PROOF.json
+candidates: [FN1, ITGB1, PLOD2, CCN2, PRSS23, THBS1, LOX, TGFBI, GJA1, IGFBP3]
+tu_np_identity: NP_matrix_marker_supported
+tu_context_identity: immune_marker_supported
