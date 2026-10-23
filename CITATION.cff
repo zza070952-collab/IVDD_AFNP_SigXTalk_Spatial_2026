@@ -1,10 +1,10 @@
 # Draft citation metadata. Study author identities and release identifier pending.
 cff-version: 1.2.0
-message: "Unreleased study code. The anonymous collective is a placeholder; replace it with confirmed author metadata and a verified release identifier before final citation."
+message: "Public source snapshot. The anonymous collective remains a placeholder; confirm citation authors and a versioned release before final citation. Cite the repository URL and specific commit used."
 title: "IVDD fixed-program, official SigXTalk and spatial-context computation"
 type: software
-version: "unreleased"
 authors:
   - name: "Anonymous study contributors"
 # Generic anonymous collective only; no individual or institutional identity asserted.
-# No repository URL, DOI, publication date or own-code licence is invented.
+# No DOI, versioned release or own-code licence is invented.
+repository-code: "https://github.com/zza070952-collab/IVDD_AFNP_SigXTalk_Spatial_2026"
