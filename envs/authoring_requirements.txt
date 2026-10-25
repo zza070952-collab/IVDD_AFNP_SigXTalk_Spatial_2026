@@ -1,0 +1,12 @@
+# Optional V4 and compact authoring; inputs and generated artifacts are not included.
+numpy
+pandas
+scipy
+matplotlib
+Pillow
+openpyxl
+python-docx
+reportlab
+PyMuPDF
+# JavaScript Excel authoring additionally requires an existing authorized
+# @oai/artifact-tool runtime. It is not vendored or installed by this file.

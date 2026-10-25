@@ -19,7 +19,7 @@ def source_files(root):
     folders = ["scripts", "config", "configs", "resources", "envs", "tests", "docs", ".github"]
     files = []
     for folder in folders:
-        files.extend(path for path in (root / folder).rglob("*") if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc")
+        files.extend(path for path in (root / folder).rglob("*") if path.is_file() and not any(part in {"__pycache__", "node_modules", ".smoke", "analysis", "outputs"} for part in path.relative_to(root).parts) and path.suffix != ".pyc")
     files.extend(path for path in root.iterdir() if path.is_file() and path.suffix.lower() in [".md", ".cff", ".sh", ".toml"])
     return sorted(set(files))
 

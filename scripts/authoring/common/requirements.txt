@@ -1,0 +1,4 @@
+reportlab>=3.6
+PyMuPDF>=1.22
+python-docx>=0.8.11
+# Optional native Microsoft Word export on Windows: pywin32
