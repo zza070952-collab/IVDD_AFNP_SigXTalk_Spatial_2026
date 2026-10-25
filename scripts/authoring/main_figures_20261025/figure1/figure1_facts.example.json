@@ -1,0 +1,9 @@
+{
+  "discovery_np_donors": 8,
+  "independent_human_np_donors": 8,
+  "communication_eligible_pairs": 6,
+  "scientific_source": "Frozen design configuration: GSE230808 discovery cohort, GSE165722 independent NP cohort, GSE287499 adult mouse context. Donor and eligibility counts must be verified against the external V4 tables. These are aggregate design facts, not experimental measurements or an authenticity attestation.",
+  "adult_mouse_spatial_captures": 2,
+  "experimental_source_status": "INTERNAL_REVIEW_SOURCE_UNRESOLVED",
+  "figure_kind": "Study-design schematic, not a quantitative result"
+}

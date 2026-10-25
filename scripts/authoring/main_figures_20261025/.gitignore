@@ -1,0 +1,13 @@
+# Private runtime material; only reviewed source/configuration is published.
+layout_sketches/
+*EXPORT_MANIFEST*.json
+*AUTOMATED*QA*.json
+*STRUCTURAL_QA*.json
+*PDF_PAGE_TEXT*.json
+*RENDER_MANIFEST*.json
+*COMPLETION*.json
+*AUDIT*.json
+*AUDIT*.tsv
+*SIGNATURES*.tsv
+*.private.json
+*.private.txt

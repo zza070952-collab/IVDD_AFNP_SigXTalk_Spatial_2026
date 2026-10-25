@@ -8,6 +8,8 @@ Start with [environment setup](docs/ENVIRONMENT_SETUP.md), then copy the public 
 
 The [authoring guide](docs/AUTHORING_REPRODUCTION.md) navigates the V4 human, communication/spatial, optional experiment, workbook and spatial-cache tools; compact human, communication/spatial and workbook tools; and common PDF/DOCX formatting, reference-replacement and visual-QA utilities. These tools require the documented external inputs and read-only private caches. A source-only clone is not a complete authoring dataset. Generated artifacts stay in ignored or external private output directories.
 
+The optional [25 October main-figure revision](docs/MAIN_FIGURE_REVISION_20261025.md) adds the original overview Figure 1, replots old Figure 1B–E as Figure 2A–D and old Figure 5B–G as Figure 6A–F, preserves old Figures 2–4 byte-for-byte as Figures 3–5, and provides semantic reference/DOCX editing and QA code. Earlier pipeline numbering remains historical. This module requires external frozen inputs and private manuscript/plan/legend files; no research measurements, manuscript text, full legends or generated artwork accompany the code.
+
 ```bash
 bash run_all.sh --config config/private-pipeline.yaml --project-root ./analysis --from-raw
 bash run_all.sh --config config/private-pipeline.yaml --project-root ./analysis --from-cached-inputs

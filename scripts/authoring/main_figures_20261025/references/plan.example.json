@@ -1,0 +1,27 @@
+{
+  "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "expected_paragraph_count": 24,
+  "edit_stop": 13,
+  "preserve_ranges": [[11, 13]],
+  "structure_checks": [{"index": 2, "starts_with": "<PRIVATE SOURCE ANCHOR>"}],
+  "panel_edits": [
+    {"index": 6, "remove_panel": "A", "old_panel": "1A", "reason": "Deleted old schematic", "panel_relabel": {"B": "A", "C": "B", "D": "C", "E": "D"}},
+    {"index": 10, "remove_panel": "A", "old_panel": "5A", "reason": "Deleted old schematic", "panel_relabel": {"B": "A", "C": "B", "D": "C", "E": "D", "F": "E", "G": "F"}}
+  ],
+  "reference_overrides": {},
+  "text_replacements": {},
+  "insertions": [
+    {"before_index": 4, "source": "text", "text": "<PRIVATE AUTHOR-APPROVED OVERVIEW>"},
+    {"before_index": 6, "source": "figure1_legend"}
+  ],
+  "old_images_start": 14,
+  "expected_old_images": 5,
+  "reject_old_image_indices": [0, -1],
+  "expected_sections": 2,
+  "required_final_phrases": ["<PRIVATE EXACT PROTECTED PHRASE>"],
+  "forbidden_final_phrases": ["<PRIVATE EXACT REMOVED SCHEMATIC PHRASE>"],
+  "max_panel": {"1": "E", "2": "D", "3": "F", "4": "F", "5": "F", "6": "F"},
+  "legend_section": {"heading": "Figure legends", "end_heading": "References"},
+  "insertion_order_checks": [],
+  "output_name": "manuscript_renumbered.docx"
+}

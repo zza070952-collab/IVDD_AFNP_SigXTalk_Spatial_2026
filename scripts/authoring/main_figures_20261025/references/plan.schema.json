@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private manuscript figure-update plan (no study plan is distributed)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_sha256", "expected_paragraph_count", "edit_stop", "preserve_ranges", "structure_checks", "panel_edits", "reference_overrides", "text_replacements", "insertions", "old_images_start", "expected_old_images", "reject_old_image_indices", "expected_sections", "required_final_phrases", "forbidden_final_phrases", "max_panel", "legend_section"],
+  "properties": {
+    "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "expected_paragraph_count": {"type": "integer", "minimum": 1},
+    "edit_stop": {"type": "integer", "minimum": 1, "description": "Exclusive end of the original paragraph range eligible for text edits."},
+    "preserve_ranges": {"type": "array", "items": {"type": "array", "minItems": 2, "maxItems": 2, "prefixItems": [{"type": "integer", "minimum": 0}, {"type": "integer", "minimum": 1}]}},
+    "structure_checks": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["index"], "properties": {"index": {"type": "integer", "minimum": 0}, "equals": {"type": "string"}, "starts_with": {"type": "string"}}, "anyOf": [{"required": ["equals"]}, {"required": ["starts_with"]}]}},
+    "panel_edits": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["index", "remove_panel", "old_panel", "reason"], "properties": {"index": {"type": "integer", "minimum": 0}, "remove_panel": {"type": "string", "pattern": "^[A-G]$"}, "old_panel": {"type": "string"}, "reason": {"type": "string"}, "panel_relabel": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^[A-G]$"}}}}},
+    "reference_overrides": {"type": "object", "description": "Keys are original paragraph index, a vertical bar, and exact old figure reference.", "additionalProperties": {"type": "object", "additionalProperties": false, "required": ["new_ref", "reason"], "properties": {"new_ref": {"type": "string"}, "reason": {"type": "string"}}}},
+    "text_replacements": {"type": "object", "description": "Keys are original paragraph indices; all exact study prose stays in the private copy.", "additionalProperties": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["old", "new", "reason"], "properties": {"old": {"type": "string", "minLength": 1}, "new": {"type": "string"}, "reason": {"type": "string"}}}}},
+    "insertions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["before_index", "source"], "properties": {"before_index": {"type": "integer", "minimum": 0}, "source": {"enum": ["text", "figure1_legend"]}, "text": {"type": "string"}}, "allOf": [{"if": {"properties": {"source": {"const": "text"}}}, "then": {"required": ["text"]}}]}},
+    "old_images_start": {"type": "integer", "minimum": 0, "description": "All later original paragraphs must be figure-only appendix content; inspected before running."},
+    "expected_old_images": {"type": "integer", "minimum": 0},
+    "reject_old_image_indices": {"type": "array", "items": {"type": "integer"}, "description": "Indices in the distinct original image list; negative indices are permitted."},
+    "expected_sections": {"type": "integer", "minimum": 1},
+    "required_final_phrases": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "forbidden_final_phrases": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "max_panel": {"type": "object", "additionalProperties": false, "required": ["1", "2", "3", "4", "5", "6"], "properties": {"1": {"type": "string", "pattern": "^[A-G]$"}, "2": {"type": "string", "pattern": "^[A-G]$"}, "3": {"type": "string", "pattern": "^[A-G]$"}, "4": {"type": "string", "pattern": "^[A-G]$"}, "5": {"type": "string", "pattern": "^[A-G]$"}, "6": {"type": "string", "pattern": "^[A-G]$"}}},
+    "legend_section": {"type": "object", "additionalProperties": false, "required": ["heading", "end_heading"], "properties": {"heading": {"type": "string"}, "end_heading": {"type": "string"}}},
+    "insertion_order_checks": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["before_text", "after_text"], "properties": {"before_text": {"type": "string"}, "after_text": {"type": "string"}}}},
+    "figure_headings": {"type": "object", "additionalProperties": {"type": "string"}},
+    "figure_alt_text": {"type": "object", "additionalProperties": {"type": "string"}},
+    "output_name": {"type": "string", "pattern": "^[^/\\\\]+\\.docx$"}
+  }
+}
